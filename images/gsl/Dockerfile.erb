@@ -1,0 +1,5 @@
+FROM <%= namespace %>/gsl:runtime
+
+ADD pkg/gsl/* /
+
+ENTRYPOINT ["gsl"]
